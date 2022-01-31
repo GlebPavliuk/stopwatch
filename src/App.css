@@ -65,6 +65,12 @@ body {
   border: 2px solid #00ABA9;
   color: #00ABA9;
 }
+
+.stopwatch .stopwatch-btn-blue{
+  border: 2px solid #1b08caec;
+  color: #1b08caec;
+}
+
 .stopwatch .stopwatch-btn-red:hover {
   background: #C85454;
   border: 2px solid #C85454;
@@ -78,5 +84,11 @@ body {
 .stopwatch .stopwatch-btn-gre:hover {
   background: #00ABA9;
   border: 2px solid #00ABA9;
+  color: #fff;
+}
+
+.stopwatch .stopwatch-btn-blue:hover {
+  background: #1b08caec;
+  border: 2px solid #1b08caec;
   color: #fff;
 }

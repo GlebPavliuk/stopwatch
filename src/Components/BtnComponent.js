@@ -15,7 +15,7 @@ function BtnComponent(props) {
         </button>
       </div>
       <div>
-        <button onDoubleClick={props.wait} className="stopwatch-btn stopwatch-btn-yel">
+        <button onDoubleClick={props.wait} className="stopwatch-btn stopwatch-btn-blue">
           Wait
         </button>
       </div>
