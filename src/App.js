@@ -8,6 +8,8 @@ function App() {
   const [interv, setInterv] = useState();
 
   const start = () => {
+    setInterv(null);
+    clearInterval(interv);
     run();
     setInterv(setInterval(run, 10));
   };
